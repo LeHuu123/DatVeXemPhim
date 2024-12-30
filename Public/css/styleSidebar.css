@@ -1,0 +1,144 @@
+/* style  */
+
+body{ 
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+} 
+.sidebar{
+    width: 250px;
+    padding-top: 30px;
+    /* padding-right: 10px; */
+    line-height: 28px;
+    height: 100vh;
+    background-color: #1a4e68;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow-y: scroll;
+}
+
+.item .title1{
+    font-weight: 500 ;
+    font-size: 18px !important;
+    margin: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 400  !important;
+}
+
+.item{
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    height: 50px;
+    overflow: hidden;
+}
+.item .dangXuat{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+.item .dangXuat:hover{
+    background-color:transparent !important;
+    text-decoration: none ;
+    color: white;
+ }
+
+
+
+ .item_DangNhap{
+    margin-top: 150px;
+
+ }
+ .item a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px ;
+    /* border-radius: 10px; */
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    transition: 0.2 all;
+}
+
+.item a:hover{
+   /* background-color: rgba(0, 0, 255, 0.496); */
+   background-color: white;
+   color: #1E5D80;
+   text-decoration: none   ;
+}
+
+.sidebar__list{
+}
+
+.item_main{
+    margin-bottom: 10px;
+}
+
+
+.container {
+    width: 80%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto;
+}
+.sidebar h2 {
+    text-align: center;
+}
+.sidebar i {
+    /* border: solid black; */
+
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+}
+.sidebar p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+} */
+
+.titleMain{
+    position: relative;
+    margin-bottom: 15px;
+}
+.icon{
+    content: "\f107";
+    font-family: FontAwesome ;
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.icon-02{
+    visibility: hidden;
+}
+

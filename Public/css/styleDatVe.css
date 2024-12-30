@@ -1,0 +1,199 @@
+.content {
+    /* margin-left: 300px; */
+}
+
+/* BOOKING LIST 2  */
+* {
+    box-sizing: border-box;
+}
+
+.booking h2 {
+    margin-right: 100px;
+    text-align: center;
+    /* margin: 50px 0;   */
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.booking__list1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.booking__item {
+    width: calc(100% /4 - 10px);
+    display: flex;
+    align-items: center;
+}
+
+.booking__title {
+    margin: 0;
+    text-align: left;
+    width: 140px;
+}
+
+.booking__number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.351);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .booking__befor{
+    height: 3px;
+    width: 20px;
+    color: black;
+} */
+
+.booking__before {
+    background-color: black;
+    color: white;
+    height: 1px;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.booking__beforeOne,
+.booking__beforeThree {
+    width: 150px;
+    margin-left: -24px;
+}
+
+/* BOOKING LIST 2 */
+.booking__list2 {
+    margin-top: 70px;
+
+}
+
+.booking__list2 .booking__film {
+    margin: 0;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.booking__list2 .booking__box {
+    width: 55px;
+    height: 64px;
+}
+
+.booking__list2 .booking__date {
+    display: flex;
+    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.booking__list2 .booking__box {
+    margin-right: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.booking__list2 .booking__date p {
+    margin: 0;
+}
+
+.booking__list2 .booking__day {
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+.booking__list2 .booking__rank p {
+    font-size: 14px;
+    width: 100%;
+}
+
+.booking__list2 .booking__date .booking__rank {
+    flex-wrap: nowrap;
+}
+
+.quayLai a {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px 20px;
+    background-color: aqua;
+    margin: 20px 0;
+}
+
+/* END BOOKING LIST 2  */
+/* .booking__list3{
+    display: flex;
+    margin-top: 50px;
+}
+.booking__image{
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.booking__hourlist{
+    display: flex;
+}
+.booking__hour{
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+.booking__hour p{
+    width:  100%;
+    height: 100%;
+} */
+
+/* JS  */
+
+/* .color{
+    background-color: blue;
+    color: black;
+    cursor: pointer ;
+    border-radius: 5px;
+}
+.color::selection{
+    background-color: transparent;
+} */
+
+
+/* .color-two{
+    background-color: black;
+    cursor: pointer ;
+    border-radius: 5px;
+}
+.color-two::selection{
+    background-color: transparent;
+} */
+
+
+.number {
+    background-color: aqua;
+}
+
+/* END JS */
+.fa-solid {
+    border: 0;
+}
